@@ -1,6 +1,6 @@
 [package]
 name = "client_sdk"
-version.workspace = true
+version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/" # TODO
 description = "SDK of the client" # TODO
