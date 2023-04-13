@@ -22,7 +22,7 @@ tonic = { version = "0.8", features = ["tls", "tls-roots"] }
 webpki-roots = "0.22.6"
 pyo3 = { version = "0.18.0", features = ["extension-module"] }
 derivative = "2.2.0"
-index_service = { version = "0.1.0", path = "../index_service" }
+index_service = { git = "https://github.com/thejohnbackes/pinecone-index-service.git", branch = "main" }
 openssl = { version = "0.10", features = ["vendored"] }
 
 [build-dependencies]
